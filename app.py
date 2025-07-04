@@ -128,7 +128,6 @@ def delete_project(user):
     projects.remove(project)
     print(f"Project '{project['title']}' deleted successfully!")
 
-# ✅ دالة البحث عن المشاريع بالتاريخ
 def search_projects_by_date():
     print("=== Search Projects by Date ===")
     search_date = input("Enter date to search (YYYY-MM-DD): ")
